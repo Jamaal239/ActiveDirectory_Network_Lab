@@ -17,7 +17,7 @@ This lab demonstrates enterprise-level IT support, system administration, and ne
 * Configured a shared local network printer (`Dept_Printer_HP`) using generic drivers on the domain controller.
 * Enabled Active Directory directory publishing to allow domain users to easily locate network printing resources.
 
-![Server Folder Sharing Permissions](screenshots/01_Server_Printer_Wizard.png)
+![Server Folder Sharing Permissions](screenshots/01_Server_Share_Permissions.png)
 *Figure 1: Configuring file sharing permissions for the 'Company_Share' folder on the Domain Controller.*
 
 ---
