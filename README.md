@@ -17,11 +17,11 @@ This lab demonstrates enterprise-level IT support, system administration, and ne
 * Configured a shared local network printer (`Dept_Printer_HP`) using generic drivers on the domain controller.
 * Enabled Active Directory directory publishing to allow domain users to easily locate network printing resources.
 
-![Server Printer Wizard](screenshots/01_Server_Printer_Wizard.png)
 *Figure 1: Navigating the Windows Server Add Printer Wizard to set up manual hardware settings.*
+![Server Printer Wizard] <img width="998" height="1032" alt="01_Server_Share_Permissions" src="https://github.com/user-attachments/assets/f5c9ce7a-6ec7-4c22-8657-c52e009ddebf" />
 
-![Server Printer Publishing](screenshots/02_Server_Printer_Publishing.png)
 *Figure 2: Configuring Active Directory Printer Sharing settings for the department's printer queue (`Dept_Printer_HP`).*
+![Server Printer Publishing] <img width="998" height="1032" alt="02_Server_Printer_Publishing" src="https://github.com/user-attachments/assets/b776871f-ef5e-49d8-bd23-9a45e5b1874a" />
 
 ---
 
@@ -34,7 +34,8 @@ This lab demonstrates enterprise-level IT support, system administration, and ne
 ### Task 3: Resolving Stale User Credentials
 * Managed cached network credentials via Windows Credential Manager to address authentication issues resulting from user password updates.
 
-![Client Credential Manager](screenshots/03_Client_Credential_Manager.png)
+![Client Credential Manager] <img width="1091" height="914" alt="03_Client_Credential_Manager" src="https://github.com/user-attachments/assets/13b26845-cd84-4d07-aeb8-91f24b1e2e15" />
+
 *Figure 3: Inspecting and clearing cached domain credentials for user `mvance` inside Windows Credential Manager.*
 
 ---
@@ -43,7 +44,8 @@ This lab demonstrates enterprise-level IT support, system administration, and ne
 * Administered the local print subsystem using the command line interface to stop and start the Print Spooler service (`net stop spooler` / `net start spooler`).
 * Inspected and cleared the system print directory (`C:\Windows\System32\spool\PRINTERS`) to clear stuck jobs.
 
-![Client Print Spooler Reset](screenshots/04_Client_Print_Spooler_Reset.png)
+![Client Print Spooler Reset] <img width="998" height="1032" alt="04_Client_Print_Spooler_Reset" src="https://github.com/user-attachments/assets/b0d1ffea-24eb-4108-916a-9b60cc571394" />
+
 *Figure 4: Utilizing administrative CLI commands to systematically cycle the local Print Spooler subsystem service.*
 
 ---
@@ -51,7 +53,8 @@ This lab demonstrates enterprise-level IT support, system administration, and ne
 ### Task 5: Network Stack Flush
 * Maintained local client network health by clearing local DNS caches (`ipconfig /flushdns`) and resetting active interface adapter bounds.
 
-![Client Network Flush](screenshots/05_Client_Network_Flush.png)
+![Client Network Flush] <img width="998" height="1032" alt="05_Client_Network_Flush" src="https://github.com/user-attachments/assets/69b1875d-1be1-469b-911c-9ae3d7d7c575" />
+
 *Figure 5: Successfully flushing the local client DNS resolver cache via the administrative command line interface.*
 
 ---
