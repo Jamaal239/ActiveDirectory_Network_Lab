@@ -17,18 +17,18 @@ This lab demonstrates enterprise-level IT support, system administration, and ne
 * Configured a shared local network printer (`Dept_Printer_HP`) using generic drivers on the domain controller.
 * Enabled Active Directory directory publishing to allow domain users to easily locate network printing resources.
 
+<img width="998" height="1032" alt="01_Server_Share_Permissions" src="https://github.com/user-attachments/assets/f5c9ce7a-6ec7-4c22-8657-c52e009ddebf" />
+
 *Figure 1: Navigating the Windows Server Add Printer Wizard to set up manual hardware settings.*
-![Server Printer Wizard] <img width="998" height="1032" alt="01_Server_Share_Permissions" src="https://github.com/user-attachments/assets/f5c9ce7a-6ec7-4c22-8657-c52e009ddebf" />
-
-*Figure 2: Configuring Active Directory Printer Sharing settings for the department's printer queue (`Dept_Printer_HP`).*
-![Server Printer Publishing] <img width="998" height="1032" alt="02_Server_Printer_Publishing" src="https://github.com/user-attachments/assets/b776871f-ef5e-49d8-bd23-9a45e5b1874a" />
-
----
+![Server Printer Wizard] 
 
 ### Task 2: Troubleshooting Network Share Pathing
 * Successfully mapped a network directory (`\\DC-01\Company_Share`) to user profile `mvance`.
 * Diagnosed and resolved standard short-name resolution conflicts by implementing fully qualified domain name (FQDN) mapping.
 
+![Server Printer Publishing] <img width="998" height="1032" alt="02_Server_Printer_Publishing" src="https://github.com/user-attachments/assets/b776871f-ef5e-49d8-bd23-9a45e5b1874a" />
+
+*Figure 2: Configuring Active Directory Printer Sharing settings for the department's printer queue (`Dept_Printer_HP`).*
 ---
 
 ### Task 3: Resolving Stale User Credentials
